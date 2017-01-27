@@ -5,6 +5,8 @@ import { AppComponent }  from './app.component';
 import { CardComponent }  from './card.component';
 import { BattlefieldComponent }  from './battlefield.component';
 import { BattlefrontComponent }  from './battlefront.component';
+import { PlayerComponent } from './player.component';
+import { HandComponent } from './hand.component';
 
 @NgModule({
   imports:      [ BrowserModule ],
@@ -12,7 +14,9 @@ import { BattlefrontComponent }  from './battlefront.component';
     AppComponent,
     CardComponent,
     BattlefieldComponent,
-    BattlefrontComponent  
+    BattlefrontComponent,
+    PlayerComponent,
+    HandComponent
   ],
   bootstrap:    [ AppComponent ]
 })
